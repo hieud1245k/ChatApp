@@ -1,7 +1,7 @@
 package com.hieuminh.chatapp.ui
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.hieuminh.chatapp.R
 
 class MainActivity : AppCompatActivity() {
