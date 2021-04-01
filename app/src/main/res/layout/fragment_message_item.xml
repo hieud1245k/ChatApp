@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:padding="4dp"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:src="@drawable/facebook"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="4dp"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Nguyễn Minh Hiếu"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/tv_full_name_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_latest_chat"
+                    android:text="Bạn: OK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    />
+
+                <TextView
+                    android:textColor="#423315"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="12:03"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
