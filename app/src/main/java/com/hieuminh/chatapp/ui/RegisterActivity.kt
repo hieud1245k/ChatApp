@@ -2,6 +2,7 @@ package com.hieuminh.chatapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.hieuminh.chatapp.R
 
 class RegisterActivity : AppCompatActivity() {
@@ -9,4 +10,6 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
     }
+
+    fun doTransferLogin(view: View) {}
 }
