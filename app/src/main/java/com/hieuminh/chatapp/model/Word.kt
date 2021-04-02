@@ -6,4 +6,5 @@ class Word {
 
     private lateinit var time: LocalDate
     private lateinit var text: String
+    private lateinit var sendUserId: String
 }

@@ -4,24 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeFragment">
+    tools:context=".ui.main.HomeFragment">
 
-    <AutoCompleteTextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/act_search"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:background="@drawable/round_border"
-        android:drawableStart="@drawable/ic_baseline_search_24"
-        android:drawablePadding="16dp"
-        android:hint="@string/t_m_ki_m"
-        android:padding="12dp"
-        android:textSize="16dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="@android:color/background_light"
         app:layout_constraintBottom_toTopOf="@id/rv_message_list"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:drawableLeft="@drawable/ic_baseline_search_24" />
+        app:layout_constraintTop_toTopOf="parent">
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="16dp"
+            android:hint="@string/t_m_ki_m"
+            android:padding="10dp"
+            android:textSize="16dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_message_list"
