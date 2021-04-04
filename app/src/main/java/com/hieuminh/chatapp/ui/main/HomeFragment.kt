@@ -39,8 +39,6 @@ class HomeFragment : Fragment(), HomePresenter.View {
         super.onViewCreated(view, savedInstanceState)
         presenter = HomePresenterImpl(context!!, this)
         presenter.init()
-
-        rv_message_list
     }
 
     override fun initAdapter(context: Context, messages: MutableList<MessageModel>) {

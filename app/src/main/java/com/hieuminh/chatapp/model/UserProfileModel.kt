@@ -2,11 +2,8 @@ package com.hieuminh.chatapp.model
 
 import java.time.LocalDate
 
-class UserModel() {
+class UserProfileModel() {
 
-    private lateinit var id: String
-    private lateinit var email: String
-    private lateinit var password: String
     private lateinit var fullName: String
     private lateinit var dateOfBirthDay: LocalDate
     private lateinit var phoneNumber: String
