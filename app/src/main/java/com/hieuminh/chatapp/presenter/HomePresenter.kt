@@ -2,7 +2,6 @@ package com.hieuminh.chatapp.presenter
 
 import android.content.Context
 import com.hieuminh.chatapp.model.MessageModel
-import com.hieuminh.chatapp.model.UserModel
 
 interface HomePresenter {
 

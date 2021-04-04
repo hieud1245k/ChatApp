@@ -1,10 +1,10 @@
 package com.hieuminh.chatapp.presenter
 
-import com.hieuminh.chatapp.model.UserModel
+import com.hieuminh.chatapp.model.UserProfileModel
 
 interface RegisterPresenter {
     
-    fun onRegister(userModel: UserModel)
+    fun onRegister(userModel: UserProfileModel)
     interface View {
         fun onRegisterPending()
         fun onRegisterSuccess()
