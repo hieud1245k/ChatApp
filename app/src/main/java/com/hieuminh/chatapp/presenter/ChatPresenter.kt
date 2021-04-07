@@ -7,6 +7,8 @@ interface ChatPresenter {
 
     fun init()
 
+    fun storeWordInSQLite(word : WordModel)
+
     interface View {
         fun initAdapter(context: Context, words : MutableList<WordModel>)
         fun initRecyclerView()

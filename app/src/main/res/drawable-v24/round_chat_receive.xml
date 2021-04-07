@@ -2,16 +2,12 @@
     <corners
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="10dp"
-        android:topRightRadius="10dp"
-        />
+        android:topRightRadius="10dp" />
     <solid android:color="#95B1C6" />
-
-    <stroke
-        android:width="5dp"
-        android:color="#8CA1B1" />
 
     <padding
         android:bottom="1dp"
         android:left="1dp"
         android:right="1dp"
-        android:top="1dp" /></shape>
+        android:top="1dp" />
+</shape>
